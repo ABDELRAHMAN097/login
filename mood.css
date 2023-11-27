@@ -12,7 +12,7 @@ body{
 }
 .intro{
     width: 58%;
-    height: 100vh;
+    
     background-image: url(assets/image/login-bg.jpg);
     background-position: center center;
     display: flex;
@@ -41,7 +41,7 @@ form{
     margin: 40px;
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 6px;
 }
 .logo{
    margin-bottom: 5rem;
@@ -75,10 +75,10 @@ form{
     transition: all 0.5s ease;
 
 }
-address:hover{
+.address:hover{
     border: #0a449c solid 4px;
     
-    box-shadow: 0.5px 0.5px 5px 1px rgb(46, 178, 255);
+    box-shadow: 0.5px 0.5px 3px 0.5px rgb(46, 178, 255);
     
 }
 .address span i{
